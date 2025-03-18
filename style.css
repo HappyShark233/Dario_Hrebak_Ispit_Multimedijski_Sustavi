@@ -1,0 +1,76 @@
+/* Custom boje */
+:root {
+    --green: #28a745; /* Zelena boja */
+    --black: #000000;
+  }
+  
+  body {
+    background-color: var(--black);
+    color: white;
+    font-family: 'Arial', sans-serif;
+   
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+  }
+  h1, h2, h3 {
+      color: #ffffff;
+  }
+  p {
+      color: #ffffff;
+  }
+  ul {
+      list-style-type: disc;
+      margin-left: 20px;
+  }
+  .section {
+      margin-bottom: 30px;
+  }
+  .section h2 {
+      border-bottom: 2px solid #ffffff;
+      padding-bottom: 5px;
+  }
+  .section h3 {
+      margin-top: 20px;
+  }
+  
+  
+  .bg-green {
+    background-color: var(--green) !important; /* Zelena pozadina */
+  }
+  
+  .btn-green {
+    background-color: var(--green);
+    color: white;
+    border: none;
+  }
+  
+  .btn-green:hover {
+    background-color: #218838; /* Tamnija zelena za hover */
+  }
+  
+  .card {
+    background-color: #28a745;
+    border: 1px solid #ffffff; /* Bijela granica */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .video-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    margin-top: auto; /* Footer uvijek na dnu */
+    color: #fff;               /* White text color */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
